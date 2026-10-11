@@ -226,3 +226,16 @@ events.out.tfevents*
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# 权重文件
+*.pth
+*.onnx
+
+# 训练输出
+YOLOX_outputs/
+
+# 数据集（不进 Git）
+datasets/VOCdevkit/
+
+# pip 可编辑安装生成的文件
+*.egg-info/
